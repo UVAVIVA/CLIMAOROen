@@ -1,0 +1,52 @@
+﻿site_name: CLIMAOROen
+site_description: Open Source Zonal HVAC Control System
+site_url: https://uvaviva.github.io/CLIMAOROen/
+repo_url: https://github.com/UVAVIVA/CLIMAOROen
+repo_name: UVAVIVA/CLIMAOROen
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - The System: sistema.md
+  - Hardware: hardware.md
+  - Software: software.md
+  - Status: stato.md
+  - Collaborate: collabora.md
+  - Documentation: documentazione.md
