@@ -26,6 +26,12 @@ CLIMAORO is a system that:
 
 ---
 
+## 📷 Thermostats
+
+<img src="images/termostati/1.jpg" alt="Thermostat 1" width="32%"> <img src="images/termostati/2.jpg" alt="Thermostat 2" width="32%"> <img src="images/termostati/3.jpg" alt="Thermostat 3" width="32%">
+
+---
+
 ## 🔧 Project Status
 
 | Feature | Status |
@@ -38,6 +44,12 @@ CLIMAORO is a system that:
 
 ---
 
+## 🎛️ Thermostat with encoder in a 503 box
+
+<img src="images/termostato-encoder-503/1.jpg" alt="Thermostat with encoder 503 1" width="49%"> <img src="images/termostato-encoder-503/2.jpg" alt="Thermostat with encoder 503 2" width="49%">
+
+---
+
 ## 🧩 Main Components
 
 | Component | Description |
@@ -45,6 +57,12 @@ CLIMAORO is a system that:
 | **Thermostats** | ESP32 (S3/C6/C3) devices with sensors, LEDs, and various installation modes (plug-in, 503 box) |
 | **Manifold** | Central unit with relays for valves and circulator, with opto-isolated feedback |
 | **Centralized logic** | Intelligent control that decides when to turn on the pump based on aggregated demand |
+
+---
+
+## 🔌 Mobile thermostat
+
+<img src="images/termostato-mobile/1.jpg" alt="Mobile thermostat 1" width="32%"> <img src="images/termostato-mobile/2.jpg" alt="Mobile thermostat 2" width="32%"> <img src="images/termostato-mobile/3.jpg" alt="Mobile thermostat 3" width="32%">
 
 ---
 
@@ -76,6 +94,12 @@ It is not necessary to have experience in all areas, but it is important to have
 4. Submit a **pull request**
 
 📌 **Learn more:** [https://UVAVIVA.github.io/CLIMAOROen/](https://UVAVIVA.github.io/CLIMAOROen/)
+
+---
+
+## 🛠️ Manifold
+
+<img src="images/collettore/1.jpg" alt="Manifold 1" width="32%"> <img src="images/collettore/2.jpg" alt="Manifold 2" width="32%"> <img src="images/collettore/3.jpg" alt="Manifold 3" width="32%">
 
 ---
 
