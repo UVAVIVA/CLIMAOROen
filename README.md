@@ -54,6 +54,12 @@ CLIMAORO is a system that:
 - [Temperature and humidity sensor (SHT4x)](https://it.aliexpress.com/item/1005009954170157.html)
 - [Charger / power supply](https://it.aliexpress.com/item/1005008268805480.html)
 
+**3D printed mobile thermostat case:**
+
+- [termostato-ovale-19-c6.3mf](docs/files/termostato-ovale-19-c6.3mf)
+- Recommended material: **PETG**
+- Note: the file can only be opened with **OrcaSlicer** or **Flash Studio**
+
 ---
 
 ## 🧩 Main Components

@@ -24,6 +24,8 @@ The pins shown in the diagrams and tables are examples based on current configur
 | Optoisolators | 4+ | Valve feedback |
 | LED | 1 | Status signaling |
 
+<img src="../images/collettore/1.jpg" alt="Manifold 1" width="32%"> <img src="../images/collettore/2.jpg" alt="Manifold 2" width="32%"> <img src="../images/collettore/3.jpg" alt="Manifold 3" width="32%">
+
 ### Operating logic
 
 | Function | Description |
@@ -56,6 +58,8 @@ The pins shown in the diagrams and tables are examples based on current configur
 | **Repeater** | Side or inside 503 | ESP-NOW network extension |
 | **Panel** | Side or inside 503 | Centralized control, full menu |
 
+<img src="../images/termostati/1.jpg" alt="Thermostat 1" width="32%"> <img src="../images/termostati/2.jpg" alt="Thermostat 2" width="32%"> <img src="../images/termostati/3.jpg" alt="Thermostat 3" width="32%">
+
 ### Common features
 
 | Component | Function |
@@ -64,3 +68,11 @@ The pins shown in the diagrams and tables are examples based on current configur
 | Sensor | Temperature and humidity sensing |
 | LED | Status signaling |
 | Communication | WiFi + ESP-NOW (primary and fallback) |
+
+### 3D printed mobile thermostat case
+
+The mobile thermostat case is available for 3D printing.
+
+- **File:** [termostato-ovale-19-c6.3mf](files/termostato-ovale-19-c6.3mf)
+- **Recommended material:** PETG
+- **Note:** the file can only be opened with **OrcaSlicer** or **Flash Studio**
