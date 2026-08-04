@@ -2,7 +2,11 @@
 
 **Open Source Zonal HVAC Control System**
 
-CLIMAORO is a complete system for centralized heating and cooling control in buildings with underfloor heating and heat pumps, but adaptable to all types of systems. Designed to be replicable, modular, and professional.
+CLIMAOROen is the English version of CLIMAORO, a complete system for centralized heating and cooling control in buildings with underfloor heating and heat pumps, adaptable to all types of systems.
+
+---
+
+**🇮🇹 [Versione italiana](https://UVAVIVA.github.io/CLIMAORO/)**
 
 ---
 
