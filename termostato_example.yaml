@@ -1,0 +1,86 @@
+# ============================================================
+# MAIN CONFIG FILE - EXAMPLE - Thermostat
+# Includes the package packages/termostato.yaml
+# Copy this file and edit the substitutions for each device
+# ============================================================
+substitutions:
+  collettore_mac: "28:84:85:52:26:08"
+  static_ip: "192.168.1.203"
+  i2c_sda: "0"
+  i2c_scl: "1"
+  led_pin: "8"
+  sht_address: "0x44"
+
+  device_name: "thermostat-c6-example"
+  device_friendly: "Thermostat Example"
+
+esphome:
+  name: ${device_name}
+  friendly_name: ${device_friendly}
+  project:
+    name: UVAVIVA.CLIMA_ORO
+    version: "BETA2026"
+
+esp32:
+  variant: Esp32c6
+  flash_size: 4MB
+  framework:
+    type: esp-idf
+
+wifi:
+  networks:
+    - ssid: !secret wifi_ssid2
+      password: !secret wifi_password2
+      channel: 9
+      manual_ip:
+        static_ip: ${static_ip}
+        gateway: 192.168.1.1
+        subnet: 255.255.255.0
+  reboot_timeout: 0s
+  power_save_mode: NONE
+  fast_connect: false
+
+api:
+  encryption:
+    key: !secret api_key
+  reboot_timeout: 0s
+
+ota:
+  - platform: esphome
+
+logger:
+
+i2c:
+  sda: ${i2c_sda}
+  scl: ${i2c_scl}
+
+debug:
+  update_interval: 1min
+
+text_sensor:
+  - platform: version
+    name: "Firmware Version"
+  - platform: template
+    name: "System Status"
+    id: stato_sistema
+    icon: "mdi:information-outline"
+  - platform: template
+    name: "Last Error"
+    id: ultimo_errore
+    icon: "mdi:alert-circle"
+  - platform: template
+    name: "Error History"
+    id: cronologia_errori
+    icon: "mdi:format-list-bulleted"
+    entity_category: diagnostic
+  - platform: debug
+    reset_reason:
+      name: "Restart Reason"
+      icon: "mdi:restart-alert"
+  - platform: template
+    name: "Last ESP-NOW Message"
+    id: ultimo_espnow
+    icon: "mdi:message-receive-text"
+
+packages:
+  - !include packages/termostato.yaml

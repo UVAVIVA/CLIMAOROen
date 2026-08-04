@@ -60,6 +60,10 @@ CLIMAORO is a system that:
 - Recommended material: **PETG**
 - Note: the file can only be opened with **OrcaSlicer** or **Flash Studio**
 
+**Configuration for compilation:**
+
+- [Main config file (English example)](https://github.com/UVAVIVA/CLIMAOROen/blob/main/termostato_example.yaml)
+
 ---
 
 ## 🧩 Main Components
