@@ -129,6 +129,10 @@ It is not necessary to have experience in all areas, but it is important to have
 - [Relay module (4+ channels)](https://it.aliexpress.com/item/1005007538301230.html)
 - [Optocouplers](https://it.aliexpress.com/item/1005009598584430.html)
 
+**Configuration for compilation:**
+
+- [Main config file (English example)](https://github.com/UVAVIVA/CLIMAOROen/blob/main/collettore_example.yaml)
+
 ---
 
 ## 📜 License
