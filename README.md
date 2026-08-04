@@ -44,9 +44,15 @@ CLIMAORO is a system that:
 
 ---
 
-## 🎛️ Thermostat with encoder in a 503 box
+## 🔌 Mobile thermostat
 
-<img src="images/termostato-encoder-503/1.jpg" alt="Thermostat with encoder 503 1" width="49%"> <img src="images/termostato-encoder-503/2.jpg" alt="Thermostat with encoder 503 2" width="49%">
+<img src="images/termostato-mobile/1.jpg" alt="Mobile thermostat 1" width="32%"> <img src="images/termostato-mobile/2.jpg" alt="Mobile thermostat 2" width="32%"> <img src="images/termostato-mobile/3.jpg" alt="Mobile thermostat 3" width="32%">
+
+**Part list:**
+
+- [ESP32-C6 board](https://it.aliexpress.com/item/1005007676682081.html)
+- [Temperature and humidity sensor (SHT4x)](https://it.aliexpress.com/item/1005009954170157.html)
+- [Charger / power supply](https://it.aliexpress.com/item/1005008268805480.html)
 
 ---
 
@@ -60,9 +66,15 @@ CLIMAORO is a system that:
 
 ---
 
-## 🔌 Mobile thermostat
+## 🎛️ Thermostat with encoder in a 503 box
 
-<img src="images/termostato-mobile/1.jpg" alt="Mobile thermostat 1" width="32%"> <img src="images/termostato-mobile/2.jpg" alt="Mobile thermostat 2" width="32%"> <img src="images/termostato-mobile/3.jpg" alt="Mobile thermostat 3" width="32%">
+<img src="images/termostato-encoder-503/1.jpg" alt="Thermostat with encoder 503 1" width="49%"> <img src="images/termostato-encoder-503/2.jpg" alt="Thermostat with encoder 503 2" width="49%">
+
+**Part list:**
+
+- [ESP32-S3 board](https://it.aliexpress.com/item/1005007171129437.html)
+- [Rotary encoder](https://it.aliexpress.com/item/1005012374134834.html)
+- [Display](https://it.aliexpress.com/item/1005009260256313.html)
 
 ---
 
@@ -100,6 +112,12 @@ It is not necessary to have experience in all areas, but it is important to have
 ## 🛠️ Manifold
 
 <img src="images/collettore/1.jpg" alt="Manifold 1" width="32%"> <img src="images/collettore/2.jpg" alt="Manifold 2" width="32%"> <img src="images/collettore/3.jpg" alt="Manifold 3" width="32%">
+
+**Part list:**
+
+- [ESP32-C6 board](https://it.aliexpress.com/item/1005006678253557.html)
+- [Relay module (4+ channels)](https://it.aliexpress.com/item/1005007538301230.html)
+- [Optocouplers](https://it.aliexpress.com/item/1005009598584430.html)
 
 ---
 
