@@ -80,12 +80,12 @@ The ESPHome configuration files are public on GitHub in the [climaoro-components
 
 | File | Link |
 |------|------|
-| Main config file - thermostat (Italian example) | [termostato_esempio.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/termostato_esempio.yaml) |
-| Main config file - thermostat (English example) | [termostato_example.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/termostato_example.yaml) |
+| Thermostat - ready-to-copy example (Italian) | [CLIMAORO_Termostato-Esempio.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Termostato-Esempio.yaml) |
+| Thermostat - ready-to-copy example (English) | [CLIMAORO_Thermostat-Example.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Thermostat-Example.yaml) |
 | Thermostat package | [packages/termostato.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/packages/termostato.yaml) |
 | Thermostat with display package | [packages/termostato_display.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/packages/termostato_display.yaml) |
-| Main config file - manifold (Italian example) | [collettore_esempio.yaml](https://github.com/UVAVIVA/CLIMAORO/blob/main/collettore_esempio.yaml) |
-| Main config file - manifold (English example) | [collettore_example.yaml](https://github.com/UVAVIVA/CLIMAOROen/blob/main/collettore_example.yaml) |
+| Manifold - ready-to-copy example (Italian) | [CLIMAORO_Collettore-Esempio.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Collettore-Esempio.yaml) |
+| Manifold - ready-to-copy example (English) | [CLIMAORO_Manifold-Example.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Manifold-Example.yaml) |
 | Manifold package | [packages/collettore.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/packages/collettore.yaml) |
 | Zone package | [packages/zona.yaml](https://github.com/UVAVIVA/climaoro-components/blob/main/packages/zona.yaml) |
 
