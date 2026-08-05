@@ -62,7 +62,7 @@ CLIMAORO is a system that:
 
 **Configuration for compilation:**
 
-- [Main config file (English example)](https://github.com/UVAVIVA/CLIMAOROen/blob/main/termostato_example.yaml)
+- [Main config file - ready-to-copy example (English)](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Thermostat-Example.yaml)
 
 ---
 
@@ -131,7 +131,7 @@ It is not necessary to have experience in all areas, but it is important to have
 
 **Configuration for compilation:**
 
-- [Main config file (English example)](https://github.com/UVAVIVA/CLIMAOROen/blob/main/collettore_example.yaml)
+- [Main config file - ready-to-copy example (English)](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Manifold-Example.yaml)
 
 ---
 
