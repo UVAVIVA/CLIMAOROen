@@ -135,9 +135,24 @@ It is not necessary to have experience in all areas, but it is important to have
 
 ---
 
-## 📜 License
+## 📜 License & Disclaimer
 
-MIT License – Copyright (c) 2026 UVAVIVA
+**CLIMAORO © 2026 by UVAVIVA** · License: **MIT with Attribution Condition**
+
+**Terms**
+- ✅ Attribution required (in code and on commercial devices)
+- ✅ Commercial use permitted (with attribution)
+- ✅ Modifications and derivatives allowed
+- ✅ Use, copy, distribute and sell permitted
+
+**Disclaimer**
+This project is provided **as-is** for educational and experimental purposes.
+- ⚠️ Not certified for production use
+- ⚠️ ⚡ **DANGER: work on electrical and hydronic (heating) systems must only be performed by qualified personnel**
+- ⚠️ No warranties or guarantees provided
+- ⚠️ User assumes all risks
+
+**Always follow local electrical codes and safety regulations.**
 
 ---
 
