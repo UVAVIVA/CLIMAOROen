@@ -76,3 +76,4 @@ The mobile thermostat case is available for 3D printing.
 - **File:** [termostato-ovale-19-c6.3mf](files/termostato-ovale-19-c6.3mf)
 - **Recommended material:** PETG
 - **Note:** the file can only be opened with **OrcaSlicer** or **Flash Studio**
+- **Tutorial:** [Complete assembly guide](montaggio.md)

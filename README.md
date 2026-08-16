@@ -60,6 +60,11 @@ CLIMAORO is a system that:
 - Recommended material: **PETG**
 - Note: the file can only be opened with **OrcaSlicer** or **Flash Studio**
 
+**📋 Assembly tutorial:**
+
+- [Complete thermostat assembly guide](docs/montaggio.md)
+- [Website - Assembly page](https://UVAVIVA.github.io/CLIMAOROen/montaggio/)
+
 **Configuration for compilation:**
 
 - [Main config file - ready-to-copy example (English)](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Thermostat-Example.yaml)
