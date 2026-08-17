@@ -50,6 +50,45 @@ The circulator has a dedicated relay. Unlike the valves, only COM and NO are use
 - Coherence check: every 2 minutes the collector verifies that the relay state matches the optocoupler feedback. If there is a discrepancy, it reports an error.
 - Circulator alarm: if the circulator doesn't start despite the request, the collector sends an alarm to all thermostats.
 
+## Common troubleshooting
+
+### ESP32 brownouts and reboots
+
+If the ESP32 reboots when relays activate (especially with multiple valves simultaneously), the problem is almost always the power supply. The current spike drawn by the relay coils drops the voltage below 3V and the ESP32 reboots on its own (brownout).
+
+**Solution:** buffer capacitors on the 5V power supply:
+
+| Type | Value | Use |
+|------|-------|-----|
+| Electrolytic | **470µF** | General buffer, absorbs relay current spikes |
+| Electrolytic | **1000µF** | For systems with 4+ relays, greater buffer capacity |
+| Ceramic | **100nF (0.1µF)** | Filters high-frequency noise, placed near ESP32 power pins |
+
+**Connection:** capacitors go between 5V and GND, as close to the ESP32 as possible. The ceramic goes directly on the board's VIN/GND pins, the larger electrolytic on the power rail.
+
+**Important note:** the ceramic capacitor (100nF) does NOT replace the electrolytic and vice versa. The electrolytic handles large spikes (relays), the ceramic filters fine noise. Use them together.
+
+### Optocouplers not confirming
+
+If the relay is active but feedback doesn't arrive:
+
+1. Check that the optocoupler is connected to the correct relay's COM
+2. Verify the feedback GPIO isn't already used for something else
+3. Measure with a multimeter if the opto pin changes state when the relay activates
+
+### Valves not opening
+
+1. Verify the relay is actually active (LED on the relay board)
+2. Check the wire from the valve to the relay is properly connected
+3. Measure voltage at the valve terminals: should be ~220V when relay is active
+4. Check the valve isn't mechanically stuck (try manually actuating it)
+
+### Circulator not starting
+
+1. Verify the circulator relay is active
+2. Check the startup delay (circulator starts only after at least one valve is open)
+3. Ensure the output voltage is correct
+
 ## Materials and wiring
 
 - 1.5mm² wire for 220V power supply (L and N)
