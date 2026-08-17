@@ -138,6 +138,11 @@ It is not necessary to have experience in all areas, but it is important to have
 
 - [Main config file - ready-to-copy example (English)](https://github.com/UVAVIVA/climaoro-components/blob/main/CLIMAORO_Manifold-Example.yaml)
 
+**📋 Assembly tutorial:**
+
+- [Complete collector assembly guide](docs/collettore_tutorial.md)
+- [Website - Collector Assembly page](https://UVAVIVA.github.io/CLIMAOROen/collettore_tutorial/)
+
 ---
 
 ## 📜 License & Disclaimer
