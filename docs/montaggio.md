@@ -130,6 +130,18 @@ insert it into its dedicated housing.
 
 ---
 
+## Troubleshooting
+
+### Thermostat keeps rebooting
+
+If the ESP32 reboots when Wi-Fi connects or when communicating with the collector, the problem is almost always the power supply. Old or low-quality USB chargers can't handle the current spikes.
+
+**Solution:** add a **470µF** electrolytic capacitor between 5V and GND, as close to the ESP32 power pins as possible. The capacitor absorbs current spikes and stabilizes the voltage.
+
+Connect it between the **VIN** (or 5V) and **GND** pins of the ESP32, with the positive terminal (+) on 5V and the negative terminal (-) on GND.
+
+---
+
 ## Notes
 
 - **⚠️ Safety:** the build contains mains voltage (230V) inside the charger.
