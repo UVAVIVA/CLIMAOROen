@@ -773,6 +773,34 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#thermostat-keeps-rebooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermostat keeps rebooting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#notes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1003,6 +1031,12 @@ insert it into its dedicated housing.</p>
 <li>If it does not appear: recheck the solder joints (especially SDA/SCL and the
    power connections) and the charger voltage.</li>
 </ol>
+<hr />
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="thermostat-keeps-rebooting">Thermostat keeps rebooting<a class="headerlink" href="#thermostat-keeps-rebooting" title="Permanent link">&para;</a></h3>
+<p>If the ESP32 reboots when Wi-Fi connects or when communicating with the collector, the problem is almost always the power supply. Old or low-quality USB chargers can't handle the current spikes.</p>
+<p><strong>Solution:</strong> add a <strong>470µF</strong> electrolytic capacitor between 5V and GND, as close to the ESP32 power pins as possible. The capacitor absorbs current spikes and stabilizes the voltage.</p>
+<p>Connect it between the <strong>VIN</strong> (or 5V) and <strong>GND</strong> pins of the ESP32, with the positive terminal (+) on 5V and the negative terminal (-) on GND.</p>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
